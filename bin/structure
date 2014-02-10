@@ -2,4 +2,5 @@
 $LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
 require 'structure'
 
-Stuff.inventory
+# Output inventory to the command line.
+puts Stuff.inventory
